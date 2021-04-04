@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    background: url(./img/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /*overflow: hidden;*/
+}
+/*header*/
+.header_section{
+    height: 100vh;
+    position: relative;
+}
+
+.header_section_profile_image{
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 150px);
+    
+}
+.header_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:370px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.header_section h2{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 430px;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+/*About*/
+.about_section{
+    height: 100vh;
+    position: relative;
+}
+
+.about_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+
+.about_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+
+}
+.about_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:100px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.about_section a{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top:450px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    border:2px solid white;
+    padding:15px 15px;
+    border-radius: 7px;
+    left:calc(50% - 150px);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.about_section a:hover{
+    background-color: white;
+    color:black;
+    transition: 0.4s;
+}
+
+.about_section p{
+
+ position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    font-size: 35px;
+    padding: 5%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Education*/
+.education_section{
+    height: 100vh;
+    position: relative;
+}
+
+.education_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+
+.education_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+
+}
+
+.education_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:100px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.education_section table{
+    color:white;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    top:300px;
+    left: 310px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.education_section td,th{
+    border:1px solid white;
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+}
+
+/*contact*/
+.contact_section{
+    height: 100vh;
+    position: relative;
+}
+.contact_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+
+}
+.contact_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top:100px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact_section_facebook{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: calc(50% - 300px);
+}
+.contact_section_Linkedin{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: calc(50% + 150px);
+
+}
+.contact_section_Email{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: calc(50% - 150px);
+
+}
+.contact_section_insta{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: calc(50% - 2px);
+
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .contact_section_insta{
+        position: absolute;
+        width:50px;
+        left: calc(50% - 50px);
+    }
+    .contact_section_facebook{
+        position: absolute;
+        width:50px;
+        left: calc(50% + 40px);
+
+    }
+.contact_section_Linkedin{
+    position: absolute;
+    width:50px;
+    left: calc(50% + 130px);
+
+}
+.contact_section_Email{
+    width:50px;
+    position: absolute;
+    left: calc(50% +100px);
+
+}
+}
+
+
+hr {
+    position:relative;
+    padding:3rem 0;
+    border:none;
+    color: aqua;
+  }
+  hr:before {
+    content:'------ * ------';
+    position:absolute;
+    top:1.2rem;
+    right:0;
+    left:0;
+    font-size:50px;
+    color:white;
+    text-align:center;
+  }
