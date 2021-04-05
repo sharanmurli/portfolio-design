@@ -159,7 +159,7 @@ body{
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
     top:300px;
-    left: 310px;
+    left: 30px;
     border: 1px solid white;
     border-collapse: collapse;
 }
@@ -167,7 +167,7 @@ body{
 .education_section td,th{
     border:1px solid white;
     border-collapse: collapse;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 10px 15px 10px;
 }
 
 /*contact*/
