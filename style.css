@@ -283,7 +283,7 @@ hr {
         transform: rotate(180deg);
         position: absolute;
         height: 50px;
-        top: 50px;
+        top: 10px;
         left: calc(50% - 25px);
     }
 
@@ -436,7 +436,7 @@ hr {
     .education_section table{
         color:white;
         position: absolute;
-        font-size: 10px;
+        font-size: 8px;
         font-family: 'Ubuntu', sans-serif;
         top:300px;
         left: 30px;
