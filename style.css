@@ -291,7 +291,7 @@ hr {
         cursor: pointer;
         position: absolute;
         height: 50px;
-        top: 465px;
+        top: 515px;
         left: calc(50% - 25px);
     
     }
@@ -372,7 +372,7 @@ hr {
         color: white;
         font-size: 20px;
         position: absolute;
-        top:400px;
+        top:450px;
         width: 100%;
         text-align: center;
         text-decoration: none;
@@ -394,7 +394,7 @@ hr {
         color: white;
         width: 100%;
         text-align: center;
-        top:100px;
+        top:140px;
         font-size: 30px;
         font-family: 'Ubuntu', sans-serif;
     
@@ -436,7 +436,7 @@ hr {
     .education_section table{
         color:white;
         position: absolute;
-        font-size: 13px;
+        font-size: 10px;
         font-family: 'Ubuntu', sans-serif;
         top:300px;
         left: 30px;
@@ -447,6 +447,24 @@ hr {
     .education_section td,th{
         border:1px solid white;
         border-collapse: collapse;
-        padding: 5px 10px 15px 10px;
+        padding: 5px 5px 10px 10px;
     }
+    .header_section{
+        height: 100vh;
+        position: relative;
+    }
+    .about_section{
+        height: 100vh;
+        position: relative;
+    }
+    .education_section{
+        height: 100vh;
+        position: relative;
+    }
+    .contact_section{
+        height: 100vh;
+        position: relative;
+    }
+    
+    
   }
