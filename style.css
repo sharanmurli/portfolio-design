@@ -332,7 +332,7 @@ hr {
       hr:before {
         content:'------ * ------';
         position:absolute;
-        top:0.5rem;
+        top:0.2rem;
         right:0;
         left:0;
         font-size:35px;
@@ -394,7 +394,7 @@ hr {
         color: white;
         width: 100%;
         text-align: center;
-        top:140px;
+        top:130px;
         font-size: 30px;
         font-family: 'Ubuntu', sans-serif;
     
@@ -404,7 +404,7 @@ hr {
         color: white;
         width: 100%;
         text-align: center;
-        top:135px;
+        top:130px;
         font-size: 30px;
         font-family: 'Ubuntu', sans-serif;
     
@@ -428,7 +428,7 @@ hr {
         color: white;
         width: 100%;
         text-align: center;
-        top:140px;
+        top:130px;
         font-size: 30px;
         font-family: 'Ubuntu', sans-serif;
     }
