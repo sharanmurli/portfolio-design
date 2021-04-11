@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body{
-    background: url(./img/wallpaper.jpg);
+    background: url(./img/wallpaper1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -254,7 +254,7 @@ hr {
     position:relative;
     padding:3rem 0;
     border:none;
-    color: aqua;
+   
   }
   hr:before {
     content:'------ * ------';
@@ -263,6 +263,190 @@ hr {
     right:0;
     left:0;
     font-size:50px;
-    color:white;
+    color:aqua;
     text-align:center;
+  }
+
+  @media only screen and (max-width:600px) {
+
+    .header_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 50px;
+    top: 420px;
+    left: calc(50% - 25px);
+
+    }
+
+    .about_section_up_arrow{
+        cursor: pointer;
+        transform: rotate(180deg);
+        position: absolute;
+        height: 50px;
+        top: 50px;
+        left: calc(50% - 25px);
+    }
+
+    .about_section_down_arrow{
+        cursor: pointer;
+        position: absolute;
+        height: 50px;
+        top: 465px;
+        left: calc(50% - 25px);
+    
+    }
+
+    .education_section_up_arrow{
+        cursor: pointer;
+        transform: rotate(180deg);
+        position: absolute;
+        height: 50px;
+        top: 80px;
+        left: calc(50% - 25px);
+    }
+    
+    .education_section_down_arrow{
+        cursor: pointer;
+        position: absolute;
+        height: 50px;
+        top: 530px;
+        left: calc(50% - 25px);
+    
+    }
+    .contact_section_up_arrow{
+        cursor: pointer;
+        transform: rotate(180deg);
+        position: absolute;
+        height: 50px;
+        top: 80px;
+        left: calc(50% - 25px);
+    
+    }
+
+    hr {
+        position:relative;
+        padding:2rem 0;
+        border:none;
+       
+      }
+      hr:before {
+        content:'------ * ------';
+        position:absolute;
+        top:0.5rem;
+        right:0;
+        left:0;
+        font-size:35px;
+        color:aqua;
+        text-align:center;
+      }
+
+      .header_section_profile_image{
+        height: 300px;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 150px);
+        
+    }
+    .header_section h1{
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        top:300px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    
+    .header_section h2{
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        top: 350px;
+        font-size: 25px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .about_section a{
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top:400px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+        border:2px solid white;
+        padding:15px 15px;
+        border-radius: 7px;
+        left:calc(50% - 100px);
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    .about_section a:hover{
+        background-color: white;
+        color:black;
+        transition: 0.4s;
+    }
+    .about_section h1{
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        top:100px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    .education_section h1{
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        top:135px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+
+    .about_section p{
+
+        position: absolute;
+           color: white;
+           width: 100%;
+           text-align: center;
+           top: 200px;
+           font-size: 22px;
+           padding: 5%;
+           box-sizing: border-box;
+           font-family: 'Ubuntu', sans-serif;
+       }
+
+       .contact_section h1{
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        top:140px;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .education_section table{
+        color:white;
+        position: absolute;
+        font-size: 13px;
+        font-family: 'Ubuntu', sans-serif;
+        top:300px;
+        left: 30px;
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    
+    .education_section td,th{
+        border:1px solid white;
+        border-collapse: collapse;
+        padding: 5px 10px 15px 10px;
+    }
   }
