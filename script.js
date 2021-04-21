@@ -1,25 +1,24 @@
 function moveToSection(x){
-    //alert(x);
 
     switch(x){
         case 'header_section_down_arrow':
             window.scroll({
-                top:680,
+                top:window.innerHeight,
                 left:0,
                 behavior:"smooth"
 
             })
             break;
-        
+
         case 'about_section_down_arrow':
             window.scroll({
-                top:660*2,
+                top:window.innerHeight*2,
                 left:0,
                 behavior:"smooth"
 
             })
             break;
-        
+
         case 'about_section_up_arrow':
             window.scroll({
                 top:0,
@@ -30,7 +29,7 @@ function moveToSection(x){
             break;
         case 'education_section_up_arrow':
             window.scroll({
-                top:690,
+                top:window.innerHeight,
                 left:0,
                 behavior:"smooth"
 
@@ -38,22 +37,22 @@ function moveToSection(x){
             break;
         case 'eduction_section_down_arrow':
             window.scroll({
-                top:660*3,
+                top:window.innerHeight*3,
                 left:0,
                 behavior:"smooth"
 
             })
             break;
-        
+
         case 'contact_section_up_arrow':
             window.scroll({
-                top:660*2,
+                top:window.innerHeight*2,
                 left:0,
                 behavior:"smooth"
 
             })
-            break; 
-           
+            break;
+
 
     }
 
