@@ -156,12 +156,14 @@ body{
 .education_section table{
     color:white;
     position: absolute;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
-    top:300px;
-    left: 30px;
+    top:280px;
+    text-align: center;
     border: 1px solid white;
     border-collapse: collapse;
+    width: 500px;
+    left:calc(50% - 250px);
 }
 
 .education_section td,th{
@@ -433,22 +435,7 @@ hr {
         font-family: 'Ubuntu', sans-serif;
     }
 
-    .education_section table{
-        color:white;
-        position: absolute;
-        font-size: 8px;
-        font-family: 'Ubuntu', sans-serif;
-        top:300px;
-        left: 30px;
-        border: 1px solid white;
-        border-collapse: collapse;
-    }
-    
-    .education_section td,th{
-        border:1px solid white;
-        border-collapse: collapse;
-        padding: 5px 5px 10px 10px;
-    }
+  
     .header_section{
         height: 100vh;
         position: relative;
