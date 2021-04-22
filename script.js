@@ -43,10 +43,26 @@ function moveToSection(x){
 
             })
             break;
+        case 'skill_section_up_arrow':
+            window.scroll({
+                top:window.innerHeight*2,
+                left:0,
+                behavior:"smooth"
+
+            })
+            break;
+        case 'skill_section_down_arrow':
+                window.scroll({
+                    top:window.innerHeight*4,
+                    left:0,
+                    behavior:"smooth"
+    
+                })
+                break;
 
         case 'contact_section_up_arrow':
             window.scroll({
-                top:window.innerHeight*2,
+                top:window.innerHeight*3,
                 left:0,
                 behavior:"smooth"
 
