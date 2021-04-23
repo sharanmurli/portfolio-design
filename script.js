@@ -96,3 +96,8 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 });
+
+$(document).on('click','ul li',function(){
+    $(this).addClass('active').siblings().removeClass('active')
+
+})
