@@ -9,14 +9,31 @@
     
     <link rel="shorcut icon" href="./img/sharan.jpg">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
 </head>
 <body>
     
-    <header class="header_section">
+    <header id="home" class="header_section">
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
-        </div><br>  
+        </div> 
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="index.html">Sharan <span>Murli</span></a></div>
+                <ul class="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                   
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav><br> <br> <br> <br> 
        
         <img class="header_section_profile_image" src="./img/sharan murli.jpg" alt="profile image">
         <h1>Sharan Murli</h1>
@@ -24,7 +41,7 @@
         <img class="header_section_down_arrow" src="./img/down arrow.gif" alt="down arrow navigation" onclick="moveToSection(this.id)" id="header_section_down_arrow">
 
     </header>
-    <main class="about_section">
+    <main id="about" class="about_section">
         <img src="./img/down arrow.gif" alt="up_arrow" class="about_section_up_arrow" onclick="moveToSection(this.id)" id="about_section_up_arrow">
         <h1 class="about_section_heading">About</h1>
         <br><br><br><br><br><br><br><br><br><br>
@@ -34,7 +51,7 @@
         <img src="./img/down arrow.gif" alt="down_arrow" class="about_section_down_arrow" onclick="moveToSection(this.id)" id="about_section_down_arrow">
 
     </main>
-    <section class="education_section">
+    <section id="education" class="education_section">
         <img src="./img/down arrow.gif" alt="up_arrow" class="education_section_up_arrow" onclick="moveToSection(this.id)" id="education_section_up_arrow">
         <h1>Education</h1>
         <br><br><br><br><br><br><br><br><br><br>
@@ -69,7 +86,7 @@
         <img src="./img/down arrow.gif" alt="down_arrow" class="education_section_down_arrow" onclick="moveToSection(this.id)" id="eduction_section_down_arrow">
         
     </section>
-    <section class="skill_section">
+    <section id="skill" class="skill_section">
         <img src="./img/down arrow.gif" alt="up_arrow" class="skill_section_up_arrow" onclick="moveToSection(this.id)" id="skill_section_up_arrow">
         <h1 class="skill_section_heading">Skills</h1>
         <br><br><br><br><br><br><br><br><br><br>
@@ -86,7 +103,7 @@
         <img src="./img/down arrow.gif" alt="down_arrow" class="skill_section_down_arrow" onclick="moveToSection(this.id)" id="skill_section_down_arrow">
 
     </section>
-    <footer class="contact_section">
+    <footer id="contact" class="contact_section">
         <img src="./img/down arrow.gif" alt="up_arrow" class="contact_section_up_arrow" onclick="moveToSection(this.id)" id="contact_section_up_arrow">
         <h1>Get in Touch</h1><br><br><br><br><br><br><br><br><br><br>
         <hr>
