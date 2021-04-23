@@ -356,6 +356,35 @@ body{
    
 
 }
+a .contact_section_facebook:hover{
+    border:4px solid white;
+    border-style: solid;
+    transition: 0.5s ;
+    
+
+}
+a .contact_section_Email:hover{
+    border:4px solid white;
+    border-style: solid;
+    transition: 0.5s ;
+
+
+}
+a .contact_section_Linkedin:hover{
+    border:4px solid white;
+    border-style: solid;
+    transition: 0.5s ;
+   
+
+
+}
+a .contact_section_insta:hover{
+    border:4px solid white;
+    border-style: solid;
+    transition: 0.5s ;
+
+
+}
 @media only screen and (max-width:600px) {
     /* For mobile phones: */
     .contact_section_insta{
